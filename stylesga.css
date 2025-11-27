@@ -1,0 +1,159 @@
+*{ margin: 0 auto;
+}
+
+
+.arriba{
+   background-color: rgb(207, 176, 0);
+    width: 1520px;
+    height: 99px;
+
+     border: 3px rgb(207, 176, 0) solid;
+     margin: 0 auto;
+    }
+
+
+.logo{
+     background-color: antiquewhite;
+     float: left;
+     width: 100px;
+     height: 76px;
+     margin-left: 20px;
+     margin-top: 9px;
+     border: 2px chocolate solid;
+}
+
+
+
+.fundacion{
+    float: left;
+margin-left: 400px;
+background-color: azure;
+height: 94px;
+margin-top: 2px;
+border: 1px chocolate solid;
+}
+
+
+
+nav{
+    float: right;
+margin-right: 90px;
+}
+
+
+
+ul{
+    margin-top: 36px;
+}
+
+
+
+li{
+     display:  inline;
+    padding-left: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.abajo{
+   background-color: rgb(207, 176, 0);
+    width: 1520px;
+    height: 99px;
+ margin: 0 auto;
+     border: 3px rgb(207, 176, 0) solid;
+     }
+
+
+
+.medio{
+    background-color: rgb(50, 50, 50);
+    width: 1520px;
+    height:700px;
+   margin: 0 auto;
+    border: 3px rgb(207, 176, 0) solid;
+}
+
+
+#wiki:hover{
+    color: chocolate;
+}
+
+    #vvv{
+   margin-top: 45px;
+    }
+
+
+    #t{
+        display: inline
+        }
+
+
+    .lista2{
+     margin-top: 30px;
+   text-align: center;
+     }
+
+
+     a:hover{
+        color: rgb(50, 50, 50);
+     }
+
+     .aquelarre{
+
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+     }
+
+      .granc{
+
+    float: left;
+    margin-left: 45px;
+    margin-top: 70px;
+     }
+    
+     .adoracion{
+        float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+     }
+
+     .piedad{
+      float: left;
+        margin-left: 45px;
+        margin-top: 70px;
+    }
+
+     .duelo{
+
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+     }
+
+     .entierro{
+
+    float: left;
+    margin-left: 25px;
+  
+     }
+
+      .vuelo{
+
+    float: left;
+    margin-left: 45px;
+    margin-top: 15px;
+  
+     }
+
+         .sopa{
+
+    float: left;
+    margin-left: 55px;
+    margin-top: 45px;
+  
+     }
+
+     
+      a:visited{
+        color:rgb(50, 50, 50);
+    }
