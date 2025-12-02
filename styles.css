@@ -1,113 +1,56 @@
-*{ margin: 0 auto;
+*{margin-left: 50px;
+margin-right: 50px; }
+
+body{
+    background-image: url(img/aaa.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+color: azure;
+text-align: center;
 }
 
 
-.arriba{
-   background-color: rgb(207, 176, 0);
-    width: 1520px;
-    height: 99px;
+h2{ color: azure;
+font-family:Georgia, 'Times New Roman', Times, serif ;}
 
-     border: 3px rgb(207, 176, 0) solid;
-     margin: 0 auto;
-    }
-
-
-.logo{
-     background-color: antiquewhite;
-     float: left;
-     width: 100px;
-     height: 76px;
-     margin-left: 20px;
-     margin-top: 9px;
-     border: 2px chocolate solid;
-}
-
-
-
-.fundacion{
-    float: left;
-margin-left: 400px;
-background-color: azure;
-height: 94px;
-margin-top: 2px;
-border: 1px chocolate solid;
-}
-
-
-
-nav{
+#t{
     float: right;
-margin-right: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
+.a
+{ 
+
+background-image:url(img/pixel-background-u2jnye2lgq0gv7h2.jpg); 
+width: 400px; height: 150px;
+float: left;
+border: seagreen solid 2px;
+padding-top:150px;
+margin-bottom: 10px;
 
 
-ul{
-    margin-top: 36px;
 }
 
+.v
+{ 
 
+background-image:url(img/pixel-background-u2jnye2lgq0gv7h2.jpg); 
+width: 400px; height: 150px;
+float: left;
+border: seagreen solid 2px;
+padding-top:150px;
+margin-bottom: 10px;
 
-li{
-     display:  inline;
-    padding-left: 15px;
-   font-family: 'Times New Roman', Times, serif;
 }
 
-
-
-.abajo{
-   background-color: rgb(207, 176, 0);
-    width: 1520px;
-    height: 99px;
- margin: 0 auto;
-     border: 3px rgb(207, 176, 0) solid;
-     }
-
-
-
-.medio{
-    background-color: rgb(50, 50, 50);
-    width: 1520px;
-    height:700px;
-   margin: 0 auto;
-    border: 3px rgb(207, 176, 0) solid;
+.r{
+    width: 810;
+    height: 210px;
 }
 
-
-    .video{
-      border: 2px rgb(207, 176, 0) solid;
-      width: 1400px;
-      height: 590px;
-      float: left;
-      margin-top: 50px;
-      margin-left: 55px;
-    }
+a{font-family: Georgia, 'Times New Roman', Times, serif;}
 
 
-    #vvv{
-   margin-top: 45px;
-    }
-
-
-
-    #t{
-        display: inline
-        }
-
-
-    .lista2{
-     margin-top: 30px;
-   text-align: center;
-     }
-
-
-     a:hover{
-        color: rgb(50, 50, 50);
-     }
-
-    a:visited{
-        color: rgb(50, 50, 50);
-    }
-
-    
