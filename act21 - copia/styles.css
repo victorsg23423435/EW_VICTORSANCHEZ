@@ -1,0 +1,26 @@
+.gris{
+    width:80vw;
+    height:70vh ;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+
+.rosa{
+    width: 60vw;
+    height: 30vh;
+    background-color: deeppink;
+}
+
+.verde{
+    width: 20vw;
+    height: 30vh;
+    background-color: chartreuse;
+}
+
+.rojo{
+    width: 80vw;
+    height: 10vh;
+    background-color: red;
+    margin: 0 auto;
+}
