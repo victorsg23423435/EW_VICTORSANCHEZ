@@ -13,22 +13,34 @@ box-sizing:border-box;}
     width:200px;
     height:200px;}
 
-.c{ background-color: coral;}
+.c{ background-color: coral;
+padding-top: 95px;
+padding-left: 95px;}
 
 .i{background-color: chocolate;
-flex-shrink: 2;}
+flex-shrink: 2;
+padding-top: 95px;
+padding-left: 95px;}
 
 
 .p{background-color: crimson;
-flex-grow:15;}
+flex-grow:15;
+padding-top: 95px;
+padding-left: 95px;}
 
 
 .o{background-color:firebrick;
-flex-grow: 1;}
+flex-grow: 1;
+padding-top: 95px;
+padding-left: 95px;}
 
-.t{background-color: brown;}
+.t{background-color: brown;
+padding-top: 95px;
+padding-left: 95px;}
 
-.e{background-color: darkred;}
+.e{background-color: darkred;
+padding-top: 95px;
+padding-left: 95px;}
 
 .a{
     display: flex;
