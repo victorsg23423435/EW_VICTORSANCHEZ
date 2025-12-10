@@ -1,0 +1,19 @@
+
+*{
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+.contenedor{
+
+    display: flex;
+    width:90vw ;
+    height: 100vh;
+    border: 1px black solid;
+    margin-top: 10px;
+}
+
+.nombres{margin: 15px;
+padding: 5px;
+background-color: palevioletred;}
