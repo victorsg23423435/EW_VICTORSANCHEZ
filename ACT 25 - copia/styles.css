@@ -1,0 +1,26 @@
+*{text-align: center;}
+
+/*FONDO*/
+body{background-image: url(img/Fondo.webp);}
+
+body{background-size:cover;}
+
+/*TEXTO*/
+.home{ display: flex;
+flex-flow: column nowrap;}
+.home{padding: 350px;}
+
+
+h1{font-family:"Story Script";
+color: chartreuse;
+font-size: 50px;}
+
+h3{font-family: "Roboto";
+font-size: 25px;
+color: white;}
+ 
+h3:hover{color: chocolate;}
+
+a{text-decoration: none;}
+
+
