@@ -1,0 +1,66 @@
+*{justify-content: center;
+box-sizing: border-box;
+font-family: Ballet;}
+
+/*FLEXBOX*/
+
+.flex{display: flex;
+flex-direction: column;}
+
+
+
+.flex2{ display: flex;
+flex-direction: row;}
+
+/*CAJA 1*/
+
+.p{
+background-image: url(img/Fondo.jpg);
+background-size: cover;
+width: 1200px;
+height: 200px;
+text-align: center;
+padding: 70px;
+}
+
+h1{font-family: Ballet;}
+
+/*TEXTO*/
+
+#texto{font-family: Roboto;
+font-size: small;}
+
+.texto{width: 900px;
+text-align: center;
+margin-left: 110px;
+margin-top: 20px;}
+
+a{text-decoration: none;}
+
+/*CAJAS*/
+
+.imag{border: solid blue;
+margin: 30px;
+padding: 15px;}
+
+
+#i{width:200px ;
+height: 200px;}
+
+
+p{display: flex;
+flex-direction: column;
+text-align: center;
+font-family: Ballet;
+font-size:25px;}
+
+/*HOVER*/
+
+.imag:hover{box-shadow: 6px 8px 15px yellow;}
+
+.texto:hover{color: orange;}
+
+p:hover{color: orange;}
+
+.imag:hover{ border-color: yellow;}
+

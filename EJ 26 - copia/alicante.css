@@ -1,0 +1,91 @@
+
+ 
+*{justify-content: center;
+box-sizing: border-box;
+text-decoration: none;}
+
+.z{display:flex;
+flex-direction: row;}
+
+.p{background-image: url(img/50801-Alicante.webp);
+background-size: cover;
+width: 1200px;
+height: 400px;
+text-align: center;
+padding-top: 15px;}
+
+h1{color: rgb(249, 240, 138);
+font-family: Ballet;
+font-size: 60px;}
+
+.texto{display: flex;
+flex-wrap: nowrap;}
+
+.c{width:606px;
+height: 360px;
+margin-left:30px;
+margin-right:20px;
+margin-top: 20px;
+text-align: center;
+background-color: lemonchiffon;
+} 
+
+
+.c1{width:606px;
+height: 300px;
+margin-left:30px;
+margin-right:20px;
+margin-top: 70px;
+text-align: center;
+background-color: lemonchiffon;
+} 
+
+#p{font-family:Roboto;}
+
+.imag{border: solid rgb(249, 240, 138);
+margin: 30px;
+padding: 15px;}
+
+
+#i{width:200px ;
+height: 200px;}
+
+.ii{ display: flex;
+flex-flow: row;}
+
+#lugares{font-family: Ballet;
+font-size: 30px;
+margin-left: 50px;
+text-align: center;}
+
+
+.imag:hover{box-shadow: -15px 15px 15px yellow;}
+
+.imag:hover{ border-color: yellow;}
+
+.imag:hover{ background-color:  lemonchiffon;;}
+
+.c:hover{box-shadow: 20px 10px 25px rgb(42, 54, 89);}
+
+.c:hover{ background-color: rgb(104, 150, 220);}
+
+.c1:hover{box-shadow: 20px 10px 25px rgb(42, 54, 89);}
+
+.c1:hover{ background-color: rgb(104, 150, 220);}
+
+h1:hover{ color: yellow;}
+
+.x:hover{background-color: bisque;
+color: black;
+box-shadow: 5px 5px 9px yellow;}
+
+.m{ display: flex;
+flex-flow: row;}
+
+.x{ margin: 40px;
+background-color:lemonchiffon;
+width: 150px;
+height: 20px;
+text-align: center;
+}
+
