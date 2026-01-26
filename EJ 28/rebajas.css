@@ -1,0 +1,66 @@
+
+/*FLEXBOX*/
+
+header{display:flex ;}
+
+nav{display: flex;
+    flex-wrap:nowrap;
+flex-direction: row;
+justify-content: space-around;
+background-color:#fe4934;
+margin-left:20px;
+margin-right: 20px;}
+
+section{display:flex;
+    flex-wrap: wrap;
+justify-content: center;
+margin-top: 60px;}
+
+.texto{display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+/*···*/
+h1{font-family: New Astro,'Times New Roman', Times, serif;
+margin-left:20px ;}
+
+.nab{color: white;
+height: 35px;
+font-size: 25px;}
+
+
+.rebajas{width: 1000px;
+height: 600px;}
+
+ section img{width: 100%;}
+
+.texto p{ font-family: Alight Slab Arial, Helvetica, sans-serif;
+font-size: 50px;}
+
+main{display: flex;
+    background-image:url(img/Fondo.webp);
+    background-size: cover;
+    width:90%;
+    height: 400px;
+   margin: auto;
+justify-content: space-around;
+   
+}
+
+main div img{
+    height: 400px;
+}
+    
+
+footer{display: flex;
+justify-content: space-around;
+margin-top: 40px;}
+
+
+footer div{font-size: 50px;
+font-family:  Alight Slab Arial, Helvetica, sans-serif;
+color: #fe4934;}
+
+
+
+

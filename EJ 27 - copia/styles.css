@@ -78,16 +78,13 @@ background-color: white;
 border: 2px solid palevioletred;}
 
 
-
 a{text-decoration:aquamarine;}
 
 .mapa{
 display: flex;
 justify-content: center;
 margin-top: 20px;
-margin-bottom: 30px;
-
-}
+margin-bottom: 30px;}
 
 iframe{padding: 10px;
 border: 2px solid orangered;}
