@@ -1,0 +1,78 @@
+*{box-sizing: border-box;
+justify-content: center;
+margin: 0 auto;}
+
+header{display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+h1{font-family: Share Tech;
+margin-bottom: 2vw;}
+
+h4{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+ul{display: flex;
+justify-content: space-around;
+background-color: #feb236;
+height:50px ;
+padding-top:14px ;
+width: 80vw;
+margin-top: 2vw;
+}
+
+li{list-style: none;
+font-family:Share Tech ;
+font-size: 20px;}
+
+a{text-decoration: none;}
+
+ul a li:hover{background-color: #ff7b25;}
+
+main{display: flex;
+    flex-wrap: nowrap;
+justify-content: center;
+background-color: #6b5b95;
+
+width: 80vw;}
+
+main a img{
+width: 70vw;
+}
+
+main a img:hover{transform: scale(1.11);}
+
+footer{display: flex;
+flex-direction: row;
+width: 80vw;
+background-color: #ff7b25;
+justify-content: space-around;
+margin-top: 3vw;
+padding-bottom: 1vw;
+}
+
+footer img{ width:30vw;
+padding-top: 2vw;}
+
+footer a p{ background-color: white;
+text-align: center;}
+
+
+/*MEDIA QUERIS*/
+
+@media(orientation:portrait){
+
+.NO{display: none;}
+
+ul{background-color: #d64161;
+flex-direction: column;
+height: 100px;
+padding-bottom: 10px;
+font-size: 20px;}
+
+main{background-color:#ff7b25 ;}
+
+footer{background-color: #6b5b95;
+flex-direction: column;}
+
+}
