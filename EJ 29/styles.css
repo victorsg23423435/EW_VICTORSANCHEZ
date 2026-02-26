@@ -68,6 +68,11 @@ nav div{margin-bottom: 15px;}
 
 .t{background-color:olive ;}
 
+footer p{display: none;
+border: none;}
+
+footer{border: none;}
+
 
 
 }
