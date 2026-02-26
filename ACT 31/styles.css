@@ -1,0 +1,135 @@
+*{box-sizing: border-box;
+margin: 0;}
+
+body{background-color:#F2EDE4 ;}
+
+header{width: 100vw;
+display: flex;
+
+background-color:#C7D3C0;}
+
+.c1{width: 22%;
+margin-left: 3vw;}
+
+.c2{width: 22%;
+margin-left: vw;}
+
+.c3{width:34%;}
+.c3{margin-left: 7vw;}
+
+.c4{width: 22%;}
+
+a{text-decoration: none;}
+
+header img {width:15%;
+background-color:#C7D3C0;}
+
+header h4:hover{transform: scale(1.2);}
+
+h1 p:hover{color: #C7D3C0;
+transform: scale(1.5);}
+
+h4{font-family:Federant;
+margin-top: 1.5vw;
+color: #5c6359;}
+
+main h1{
+display: flex;
+background-image: url(img/Firefly\ \(10\).jpg);
+background-size: cover;
+width: 100vw;
+height: 50vw;
+color: #d6c3a5;
+padding-left: 38vw;
+padding-top: 23vw;
+font-family:Federant;}
+
+main { margin-bottom: 1vw;}
+
+nav{display: flex;
+flex-wrap: nowrap;
+text-align: center;
+background-color: #c7d2c0;
+margin: 0.7vw 1vw 0.7vw 1.2vw;
+padding-top: 1vw;
+padding-bottom: 1vw;}
+
+nav img{width:40%;
+float: left;
+box-shadow: 1vw 0vw 1vw 0.5vw #5c6359;}
+
+
+
+
+nav img:hover{box-shadow: 1vw 0vw 1vw 0.5vw  #d6c3a5;;
+background-image: url(img/CAFE.png);}
+
+nav{font-family: 'Courier New', Courier, monospace;
+color: #5c6359;;
+}
+
+footer div { width: 32%;
+height: 32%;
+font-family: 'Courier New', Courier, monospace;
+font-size:small;}
+
+footer{display: flex;
+flex-direction: row;
+text-align: center;
+background-color: #c7d2c0;
+margin: 0.7vw 1vw 0.7vw 1vw;
+padding-top: 1vw;
+padding-bottom: 1vw;
+width: 100%;
+;}
+
+
+
+#q{font-family:"Federant" ;
+margin-left: 2vw;
+color:#5c6359 ;}
+
+
+footer .ex{ position: relative;}
+
+footer .ex:hover{color: transparent;}
+
+footer .ex:hover::after{content:"Hemos formado parte de cada eslabón de la cadena del café. Selección, tueste y preparación con criterio y conocimiento real.";
+position: relative;
+font-size: smaller;
+color: black;}
+
+footer .ar{ position: relative;}
+
+footer .ar:hover{color: transparent;}
+
+footer .ar:hover::after{content:"Nuestro trabajo es artesanal: seleccionamos, preparamos y servimos cada café con dedicación, cuidando cada detalle.";
+position: relative;
+font-size: smaller;
+color: black;}
+
+
+footer .ec{ position: relative;}
+
+footer .ec:hover{color: transparent;}
+
+footer .ec:hover::after{content:"En nuestra cafetería realizamos un trabajo artesanal con enfoque ecológico, donde cada taza refleja nuestra dedicación, la calidad de los ingredientes y el compromiso con el medio ambiente.";
+position:relative;
+font-size: smaller;
+color: black;}
+
+
+
+
+@media(orientation: portrait){
+
+   body{background-color: #5c6359;}
+    nav{flex-direction: column;}
+    nav img{width: 25%;
+    margin: 1vw;}
+    #q{color: #C7D3C0;}
+    header{background-color: #F2EDE4;}
+    header img{background-color: #F2EDE4;
+    margin-top: 1vw;}
+}
+
