@@ -1,0 +1,54 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Forager;}
+
+h1{font-family:Forager;
+margin-left: 10vw;
+margin-bottom: 2vw;}
+
+main{border: 3px solid orange;
+    width: 80%;
+    margin-top: 4vw;
+    padding: 1vw;
+    margin: auto;
+}
+
+main:hover{background-image: url(img/fondo\ \(1\).jpg);
+background-size: contain;}
+
+ main nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 2vw;}
+
+nav a:hover{color: blueviolet;}
+
+main section{display: flex;
+flex-direction: row;
+justify-content: space-around;}
+
+section img{width: 15vw;}
+
+article{width: 80%;
+background-color: orange;
+padding: 2vw;
+margin: auto;
+margin-top: 4vw;}
+
+footer{border: 3px solid orange;
+padding: 2vw;
+margin: auto;
+width: 80%;
+margin-top: 4vw;}
+
+a:link{color: orange;}
+
+@media only screen and (max-width:600px){
+
+    body{background-color:black;}
+
+    h1, h4{ color: orange;}
+    
+}
