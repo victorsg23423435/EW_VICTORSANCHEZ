@@ -1,0 +1,35 @@
+*{margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.contenedor{
+width: 80vw;
+margin: auto;
+margin-top: 4vw;
+display: grid;
+grid-template-areas:  "header header" "nav main" "footer footer";
+grid-template-columns: 20% 80%;
+}
+
+header, nav, main, footer{
+    border: 0.2vw solid blue;
+}
+
+header{
+grid-area:header;
+
+padding: 2vw;}
+
+
+nav{grid-area: nav;
+padding: 2vw;}
+
+
+main{grid-area:main;
+padding: 2vw;}
+
+
+
+footer{grid-area:footer;
+padding: 2vw;}
